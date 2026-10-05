@@ -1,0 +1,86 @@
+/* 配色はアプリの Theme（docs/Slimize_デザインレギュレーション.md §2）に合わせる。アプリと同じくライトのみ。 */
+:root {
+  --brand: #ff9500;
+  --ink: #2a1804;
+  --accent: #0a6cff;
+  --background: #fbf8f5;
+  --surface: #ffffff;
+  --track: #f0e9e1;
+  --secondary: #6b5a48;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  line-height: 1.8;
+  -webkit-text-size-adjust: 100%;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 0 0 8px;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin: 32px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid var(--track);
+}
+
+p, li { overflow-wrap: anywhere; }
+
+ul { padding-left: 1.4em; }
+
+/* 背景色の上の差し色は 4.31:1 のため、リンクは下線＋太字で読みやすさを補う（レギュレーション §2-2） */
+a {
+  color: var(--accent);
+  font-weight: 600;
+  text-underline-offset: 3px;
+}
+
+.meta, .breadcrumb {
+  color: var(--secondary);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.lead {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.card {
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 14px 16px;
+  margin-top: 24px;
+  box-shadow: 0 1px 3px rgba(42, 24, 4, 0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+  border-bottom: none;
+}
+
+.links { list-style: none; padding: 0; }
+.links li { margin: 8px 0; }
+
+hr {
+  border: none;
+  border-top: 2px solid var(--track);
+  margin: 48px 0 0;
+}
