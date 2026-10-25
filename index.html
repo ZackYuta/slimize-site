@@ -1,22 +1,175 @@
 <!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Slimize</title>
-  <meta name="description" content="動画を、必要なサイズにスリム化。iPhoneの容量を空けるためのアプリ Slimize">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Slimize - 動画圧縮・ストレージの空き容量を整理</title>
+<meta name="description" content="子どもの動画を消さずに、iPhone の容量を空ける動画圧縮アプリ。サイズを選ぶだけでスリム化、撮影日時・位置情報も残します。月額なし、登録不要、処理は端末の中だけ。">
+<meta name="theme-color" content="#FBF8F5">
+<meta name="color-scheme" content="light">
+<meta name="apple-itunes-app" content="app-id=6816337865">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Slimize">
+<meta property="og:title" content="Slimize - 動画圧縮・ストレージの空き容量を整理">
+<meta property="og:description" content="子どもの動画を消さずに、iPhone の容量を空ける動画圧縮アプリ。サイズを選ぶだけでスリム化、撮影日時・位置情報も残します。月額なし、登録不要、処理は端末の中だけ。">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="canonical" href="https://zackyuta.github.io/slimize-site/">
+<meta property="og:url" content="https://zackyuta.github.io/slimize-site/">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Slimize",
+  "operatingSystem": "iOS 17.0 以上",
+  "applicationCategory": "UtilitiesApplication",
+  "description": "動画を必要なサイズにスリム化して、iPhone の容量を空けるアプリ。撮影日時・位置情報を残し、元の動画と見比べてから削除できます。",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "JPY"
+  },
+  "url": "https://apps.apple.com/jp/app/id6816337865"
+}
+</script>
 </head>
 <body>
-  <main class="page">
-    <h1>Slimize</h1>
-    <p class="lead">動画を、必要なサイズにスリム化。</p>
-    <p>大きな動画を「25 MB未満」や「最小」など必要なサイズへスリム化して、iPhoneの空き容量を増やすためのアプリです。処理はすべてiPhoneの中で行います。</p>
+<a class="skip-link" href="#main">本文へ移動</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="./"><img class="logo-img" src="assets/icon-96.png" width="32" height="32" alt=""><span>Slimize</span></a>
+    <nav class="nav-desktop" aria-label="メインメニュー">
+      <a href="#features">特長</a><a href="how-to/">使い方</a><a href="guide/">場面別ガイド</a><a href="faq/">FAQ</a><a href="updates/">更新情報</a>
+    </nav>
+    <details class="nav-mobile">
+      <summary aria-label="メニューを開く"><span class="bars" aria-hidden="true"></span>メニュー</summary>
+      <nav aria-label="メインメニュー"><ul><li><a href="#features">特長</a></li><li><a href="how-to/">使い方</a></li><li><a href="guide/">場面別ガイド</a></li><li><a href="faq/">FAQ</a></li><li><a href="updates/">更新情報</a></li><li><a href="support/">お問い合わせ</a></li></ul></nav>
+    </details>
+    <a class="badge-store compact" href="https://apps.apple.com/jp/app/id6816337865" rel="noopener"><img src="assets/badge-appstore-ja.svg" width="98" height="36" alt="App Store からダウンロード"></a>
+  </div>
+</header>
+<main id="main">
 
-    <ul class="links">
-      <li><a href="privacy/">プライバシーポリシー</a></li>
-      <li><a href="https://x.com/YutaZacky" rel="noopener">お問い合わせ（X：@YutaZacky）</a></li>
+<section class="hero">
+  <div class="container-wide hero-grid">
+    <div>
+      <span class="eyebrow">iPhone の動画圧縮アプリ</span>
+      <h1>動画を、<span class="nowrap">必要なサイズに</span><span class="nowrap">スリム化。</span></h1>
+      <p class="hero-sub"><strong><span class="nowrap">子どもの動画を消さずに、</span><span class="nowrap">iPhone の容量を空ける。</span></strong><br>月額なし、必要なときだけ。</p>
+      <a class="badge-store" href="https://apps.apple.com/jp/app/id6816337865" rel="noopener"><img src="assets/badge-appstore-ja.svg" width="163" height="60" alt="App Store からダウンロード"></a>
+      <ul class="hero-points" aria-label="安心のポイント">
+        <li>アップロードなし</li><li>登録不要</li><li>元の動画は自分で消すまで残る</li>
+      </ul>
+    </div>
+    <div><div class="phone"><div class="phone-screen shot"><img src="assets/shots/home.webp" width="640" height="1390" alt="Slimize のホーム画面。これまでに削減した容量と、容量の大きい順に並んだ動画の一覧"></div></div></div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="scenes-title">
+  <div class="container-wide">
+    <span class="eyebrow">こんなときに</span>
+    <h2 id="scenes-title">困ったときに、数分で。</h2>
+    <p class="section-lead">毎日使うアプリではなく、困ったときに開く道具です。</p>
+    <div class="scenes">
+      <a class="scene" href="guide/#ios-update"><span class="scene-text">iOS の更新前に、容量が足りないと言われた<small>大きい動画から空けていく</small></span><span class="chev" aria-hidden="true">›</span></a>
+      <a class="scene" href="guide/#after-event"><span class="scene-text">運動会・旅行のあと、動画で容量がいっぱい<small>思い出は残して、サイズだけ小さく</small></span><span class="chev" aria-hidden="true">›</span></a>
+      <a class="scene" href="guide/#for-sending"><span class="scene-text">25 MB を超えて、メールやチャットで送れない<small>上限に収まるサイズを指定</small></span><span class="chev" aria-hidden="true">›</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="features" aria-labelledby="features-title">
+  <div class="container-wide">
+    <span class="eyebrow">特長</span>
+    <h2 id="features-title">消さずに、小さく。</h2>
+    <p class="section-lead">動画を消すのではなく、サイズを小さくして容量を空けます。</p>
+    <ul class="features"><li class="feature"><h3>大きい動画から順に並ぶ</h3><p>容量を圧迫している動画が、ひと目で分かります。</p></li><li class="feature"><h3>サイズを選ぶだけ</h3><p>「最小」「25 MB未満」などを選ぶだけ。上限を超えたときは自動で圧縮し直します。</p></li><li class="feature"><h3>撮影日時・位置情報を残す</h3><p>保存の前に確認し、「保持／失われた／元になし」を分けて表示します。</p></li><li class="feature"><h3>見比べてから、元を削除</h3><p>音声つきで比較できます。削除は iOS の確認画面を通します。</p></li><li class="feature"><h3>元の動画は変更されない</h3><p>スリム化した動画は、新しい動画として保存されます。</p></li><li class="feature"><h3>iPhone の中だけで処理</h3><p>アップロードなし・登録不要・オフラインでも使えます。</p></li></ul>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="steps-title">
+  <div class="container-wide">
+    <span class="eyebrow">使い方</span>
+    <h2 id="steps-title">3ステップで終わります。</h2>
+    <p class="swipe-hint">左右にスクロールして、3つのステップを見られます ›</p>
+    <ol class="steps" tabindex="0" aria-label="3つのステップ">
+      <li class="step"><span class="step-num">1</span><div class="phone sm"><div class="phone-screen shot"><img src="assets/shots/home.webp" width="640" height="1390" alt="ホーム画面。動画が容量の大きい順に並んでいる" loading="lazy"></div></div><h3>選ぶ</h3><p>大きい順に並んだ一覧から、スリム化したい動画を選びます。</p></li>
+      <li class="step"><span class="step-num">2</span><div class="phone sm"><div class="phone-screen shot"><img src="assets/shots/detail.webp" width="640" height="1390" alt="動画の詳細画面。最小、25 MB未満などのサイズ指定と、スリムに！ボタン" loading="lazy"></div></div><h3>サイズを選ぶ</h3><p>「25 MB未満」などを選んで「スリムに！」を押します。</p></li>
+      <li class="step"><span class="step-num">3</span><div class="phone sm"><div class="phone-screen shot"><img src="assets/shots/comparison.webp" width="640" height="1390" alt="比較画面。元の動画と圧縮後を並べて再生でき、削減量が表示されている" loading="lazy"></div></div><h3>見比べて、元を削除</h3><p>音声つきで見比べて、撮影日時・位置情報も確認。納得できたら元の動画を削除して、容量を空けます。</p></li>
+    </ol>
+    <p style="text-align:center;margin-top:28px"><a href="how-to/">詳しい使い方を見る</a></p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="trust-title">
+  <div class="container">
+    <span class="eyebrow">安心して使える</span>
+    <h2 id="trust-title">大切な動画だから。</h2>
+    <ul class="trust">
+      <li><span><strong>動画は iPhone の外へ出さない</strong><span class="desc">処理はすべて端末の中。アップロードはしません。</span></span></li>
+      <li><span><strong>元の動画は、自分で削除するまで残る</strong><span class="desc">アプリが勝手に消すことはありません。</span></span></li>
+      <li><span><strong>アカウント登録なし</strong><span class="desc">メールアドレスも名前も不要です。</span></span></li>
+      <li><span><strong>オフラインで使える</strong><span class="desc">通信がなくてもスリム化できます。</span></span></li>
     </ul>
-  </main>
+    <p><a href="privacy/">プライバシーポリシーを読む</a></p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="price-title">
+  <div class="container">
+    <span class="eyebrow">料金</span>
+    <div class="price-card">
+      <h2 id="price-title" class="price-head">月額なし。課金しなくても使えます。</h2>
+      <p>アプリは無料です。動画1本のスリム化に「チケット」を1枚使います。チケットは、買わなくてもたまります。</p>
+      <ul class="ticket-ways">
+        <li><strong>はじめに5枚</strong></li>
+        <li><strong>毎日1枚</strong>：ログインボーナス。「チケット」タブから受け取ります。</li>
+        <li><strong>削減量の節目ボーナス</strong>（2.01.01 以降）：これまでに減らした容量が 1・2・3 GB に届くと 1・2・3枚、以後は 5 GB ごとに 5枚。</li>
+        <li><strong>はじめの7日間の歓迎ボーナス</strong>（2.01.01 以降）：チュートリアル完了で5枚、3日連続ログインで3枚、7日連続で10枚。</li>
+      </ul>
+      <p class="price-note">有料の追加購入チケットは準備中です。現在、月額プランはありません。</p>
+      <p class="price-note"><a href="how-to/#tickets">チケットのくわしい説明</a></p>
+      <!-- TODO(課金の公開後): 追加購入チケットの価格（10枚150円・30枚300円・100枚750円）を載せるときは、App Store の掲載と合わせて直す（設計書 §4-5） -->
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="faq-title">
+  <div class="container">
+    <span class="eyebrow">よくある質問</span>
+    <h2 id="faq-title">気になること。</h2>
+    <div class="faq"><details><summary>画質は落ちますか？</summary><div class="answer"><p>サイズを小さくするために圧縮するので、元の動画より画質が下がることがあります。スリム化したあとに元の動画と並べて見比べられるので、納得できてから元の動画を削除するかどうかを決められます。</p></div></details>
+<details><summary>撮影日時や位置情報は残りますか？</summary><div class="answer"><p>残すように処理し、保存の前に確認します。確認の結果は「保持」「失われた」「元になし」に分けて表示するので、残ったかどうかがその場で分かります。</p></div></details>
+<details><summary>元の動画は消えてしまいますか？</summary><div class="answer"><p>自動では消えません。スリム化した動画は新しい動画として保存され、元の動画は変更されません。元の動画を削除するのは、比較画面であなたが削除を選び、iOS の確認画面で許可したときだけです。</p></div></details></div>
+    <p style="margin-top:20px"><a href="faq/">ほかの質問を見る</a></p>
+  </div>
+</section>
+
+<section class="final-cta section">
+  <div class="container">
+    <h2>iPhone の容量を、今日空ける。</h2>
+    <a class="badge-store" href="https://apps.apple.com/jp/app/id6816337865" rel="noopener"><img src="assets/badge-appstore-ja.svg" width="163" height="60" alt="App Store からダウンロード"></a>
+    <p class="cta-note">iOS 17 以上の iPhone 用・無料ダウンロード・アカウント登録なし</p>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container-wide">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="./"><img class="logo-img" src="assets/icon-96.png" width="32" height="32" alt=""><span>Slimize</span></a>
+        <p>動画を、必要なサイズにスリム化。<br>お問い合わせは X（<a href="https://x.com/YutaZacky" rel="noopener">@YutaZacky</a>）へ。</p>
+      </div>
+      <nav class="footer-nav" aria-label="サイト内のページ"><ul><li><a href="./">トップ</a></li><li><a href="how-to/">使い方</a></li><li><a href="guide/">場面別ガイド</a></li><li><a href="faq/">よくある質問</a></li><li><a href="updates/">更新情報</a></li><li><a href="support/">お問い合わせ</a></li><li><a href="privacy/">プライバシーポリシー</a></li></ul></nav>
+    </div>
+    <div class="legal">
+      <p>Apple、Apple のロゴ、iPhone は、米国その他の国で登録された Apple Inc. の商標です。App Store は Apple Inc. のサービスマークです。</p>
+      <p>&copy; 2026 Slimize 開発者</p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
