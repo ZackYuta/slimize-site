@@ -526,3 +526,19 @@ a:hover { text-decoration-thickness: 2px; }
 .ticket-ways { padding-left: 1.2em; margin: .6em 0 1em; }
 .ticket-ways li { margin-bottom: .4em; }
 .price-note { font-size: .95rem; }
+
+/* 画面キャプチャの補足（印なし）: 番号を付けず、短い箇条書きにする */
+.shot-notes { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; font-size: .95rem; }
+
+/* App Store バッジ: 押しやすいよう、ゆっくり大きさを変えて目を引く */
+.final-cta .badge-store { display: inline-block; }
+@media (prefers-reduced-motion: no-preference) {
+  .final-cta .badge-store { animation: badge-bounce 2.4s ease-in-out infinite; transform-origin: center; }
+  .final-cta .badge-store:hover, .final-cta .badge-store:focus-visible { animation-play-state: paused; }
+  @keyframes badge-bounce {
+    0%, 55%, 100% { transform: scale(1); }
+    65% { transform: scale(1.12); }
+    75% { transform: scale(.97); }
+    85% { transform: scale(1.08); }
+  }
+}
